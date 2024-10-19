@@ -28,7 +28,7 @@ class World():
                 noiseVal += 0.5 * noise2([i / xPix, j / yPix])
                 noiseVal += 0.25 * noise3([i / xPix, j / yPix])
                 noiseVal += 0.125 * noise4([i / xPix, j / yPix])
-                # noiseVal = random.choice([0,0.5,1])
+                #+noiseVal = random.choice([0,0.5,1])
                 row.append(noiseVal)
             self.noiseMap.append(row)
     
